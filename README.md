@@ -28,7 +28,7 @@ The game normally only reads level files if they are sitting directly in the roo
 *   **Automatic Cleanup:** When you close the game normally, it remembers where every file came from and moves them back into their original folders.
 *   **Safety Features:** If two folders have a file with the same name, the mod renames them during the game session (e.g., `World1_level1.json`) to prevent them from overwriting each other.
 
-### 2. `id_checker.py`
+### 2. `ID checker.py`
 The game identifies levels using an internal `levelNumber` inside the JSON code, not by the filename. If two different files use the same ID, the game will crash or glitch.
 
 *   **How it works:** This script scans your entire level collection and checks the internal data of every file.
