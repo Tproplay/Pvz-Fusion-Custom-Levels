@@ -4,7 +4,7 @@
 # **How to install**
 
 
-1. Download the latest release.
+1. Download and extract the latest release.
 2. Put the `CustomLevelsLoader.dll` into your mods folder.
 3. Put the levels folder in your game folder
    
