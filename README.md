@@ -39,5 +39,6 @@ The game identifies levels using an internal `levelNumber` inside the JSON code,
 
 ## ⚠️ Important Rules
 *   **Don't Force Close:** Always exit the game through the menu. If you use Task Manager or the game crashes, the mod won't have time to move your files back to their subfolders.
+*   **Please Don't Use CustomLevelsLoader.dll during level making**. It can give you trouble, always remove it from your mods folder during levels making.
 *   **Ignore Folders:** If you want to hide a folder from the game (for backups or unfinished work), start the folder name with an underscore (e.g., `_Backup`). Both the mod and the script will skip these folders.
 *   **Safety First:** Always run the ID checker.py after adding new levels to ensure your save data remains stable.
